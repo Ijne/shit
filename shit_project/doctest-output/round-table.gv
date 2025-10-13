@@ -1,0 +1,4 @@
+// The Round Table
+digraph "round-table" {
+	A [label="First Node"]
+}

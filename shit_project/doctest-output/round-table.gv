@@ -1,4 +1,36 @@
 // The Round Table
 digraph "round-table" {
-	A [label="First Node"]
+	Name [label=matplotlib]
+	Version [label="3.10.7"]
+	Summary [label="Python plotting package"]
+	"Home-page" [label="First Node"]
+	Author [label="John D. Hunter, Michael Droettboom"]
+	"Author-email" [label="Unknown <matplotlib-users@python.org>"]
+	License [label="License agreement for matplotlib versions 1.3.0 and later"]
+	Packeges [label=Packeges]
+	"Package 1" [label=contourpy]
+	"Package 2" [label=cycler]
+	"Package 3" [label=fonttools]
+	"Package 4" [label=kiwisolver]
+	"Package 5" [label=numpy]
+	"Package 6" [label=packaging]
+	"Package 7" [label=pillow]
+	"Package 8" [label=pyparsing]
+	"Package 9" [label="python-dateutil"]
+	Name -> Version
+	Name -> Summary
+	Name -> "Home-page"
+	Name -> Author
+	Author -> "Author-email"
+	Name -> License
+	Name -> Packeges
+	Packeges -> "Package 1"
+	Packeges -> "Package 2"
+	Packeges -> "Package 3"
+	Packeges -> "Package 4"
+	Packeges -> "Package 5"
+	Packeges -> "Package 6"
+	Packeges -> "Package 7"
+	Packeges -> "Package 8"
+	Packeges -> "Package 9"
 }

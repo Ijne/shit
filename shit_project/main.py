@@ -1,5 +1,7 @@
+from mathplotlib import getCode
+
 def main():
-    pass
+    getCode()
 
 
 if __name__ == "__main__":

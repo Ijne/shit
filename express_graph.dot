@@ -1,0 +1,65 @@
+digraph express {
+    rankdir=TB;
+    size="8,8";
+    info [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR><TD BGCOLOR="lightblue"><B>EXPRESS</B></TD></TR>
+        <TR><TD>Version: 5.1.0</TD></TR>
+        <TR><TD>Author: Вячеслав</TD></TR>
+        <TR><TD>Date: 20.10.2025</TD></TR>
+    </TABLE>>, shape=none];
+    node [shape=box, style=filled, fillcolor=lightgreen];
+    qs [label="qs"];
+    info -> qs;
+    etag [label="etag"];
+    info -> etag;
+    once [label="once"];
+    info -> once;
+    send [label="send"];
+    info -> send;
+    vary [label="vary"];
+    info -> vary;
+    debug [label="debug"];
+    info -> debug;
+    fresh [label="fresh"];
+    info -> fresh;
+    cookie [label="cookie"];
+    info -> cookie;
+    router [label="router"];
+    info -> router;
+    accepts [label="accepts"];
+    info -> accepts;
+    type_is [label="type-is"];
+    info -> type_is;
+    parseurl [label="parseurl"];
+    info -> parseurl;
+    statuses [label="statuses"];
+    info -> statuses;
+    encodeurl [label="encodeurl"];
+    info -> encodeurl;
+    mime_types [label="mime-types"];
+    info -> mime_types;
+    proxy_addr [label="proxy-addr"];
+    info -> proxy_addr;
+    body_parser [label="body-parser"];
+    info -> body_parser;
+    escape_html [label="escape-html"];
+    info -> escape_html;
+    http_errors [label="http-errors"];
+    info -> http_errors;
+    on_finished [label="on-finished"];
+    info -> on_finished;
+    content_type [label="content-type"];
+    info -> content_type;
+    finalhandler [label="finalhandler"];
+    info -> finalhandler;
+    range_parser [label="range-parser"];
+    info -> range_parser;
+    serve_static [label="serve-static"];
+    info -> serve_static;
+    cookie_signature [label="cookie-signature"];
+    info -> cookie_signature;
+    merge_descriptors [label="merge-descriptors"];
+    info -> merge_descriptors;
+    content_disposition [label="content-disposition"];
+    info -> content_disposition;
+}
